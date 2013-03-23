@@ -6,11 +6,12 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/oss.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="js/oss.js"></script>
     <!-- <link href="css/prettify.css" type="text/css" rel="stylesheet" /> -->
     <!-- <script type="text/javascript" src="js/prettify.js"></script> -->
     <!-- <script type="text/javascript" src="js/lang-lisp.js"></script> -->
   </head>
-  <body onload="prettyPrint()">
+  <body>
     <script src="js/bootstrap.min.js"></script>
     <div id="#top"></div>
 
@@ -22,7 +23,9 @@
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">Eligibility</a></li>
           <li><a href="#">Getting Started</a></li>
-          <li><a href="#">About</a></li>
+
+          <li><a href="#">Submissions</a></li>
+          <li><a href="#">Open Source Group</a></li>
         </ul>
 
 
@@ -31,24 +34,40 @@
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <!-- ############### NAVIGATION ############-->
+        <!-- ############### LEFT NAVIGATION ############-->
         <div class="span3">
-          foo
+          &nbsp;
         </div>
 
         <!-- ############### MAIN BODY ############-->
-        <div class="span7" id="helpbody">
-          <div id="welcome" name="Welcome!">
-            <p>
-              This is where I should put placeholder text! Instead,
-              here's a picture of a parrot!
-            </p>
-	    <img src="http://lnx.cx/~tbielawa/images/rms-parrot.jpg" class="img-rounded">
+        <div class="span7" id="ossbody">
+          <p class="lead">
+            What you need to know:
+          </p>
+
+          <dl class="dl-horizontal">
+            <dt>Who</dt>
+            <dd>2014-2015 WVU Undergrads</dd>
+
+            <dt>What</dt>
+            <dd>New Scholarship Announcement</dd>
+
+            <dt>Where</dt>
+            <dd><a href="#"
+                   rel="tooltip"
+                   title="Room Location and Directions">G102 Engineering Sciences Building</a></dd>
+            <dt>When</dt>
+            <dd>Tuesday April 23<sup>rd</sup> 2013 - 6→8pm</dd>
+
+            <dt>Don't forget!</dt>
+            <!-- Generate cal link from Google Event Publisher Guide -->
+            <dd><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Open%20Source%20Scholarship%20Announcement&dates=20130423T220000Z/20130424T000000Z&details=Come%20to%20the%20announcement%20of%20the%20first%20annual%20Open%20Source%20Scholarship.%20Learn%20what%20open%20source%20software%20is%20all%20about%20and%20how%20to%20get%20involved%20to%20increase%20your%20chances%20of%20earning%20the%20award.%20Visit%20our%20website%20for%20more%20information%3A%20http%3A%2F%2Fopensourcescholars.org&location=G102%20Engineering%20Sciences%20Building%2C%20Morgantown%20WV%2C%2026505&trp=true&sprop=http%3A%2F%2Fopensourcescholars.org&sprop=name:Open%20Source%20Scholars" target="_blank">Add to Google Calendar</a></dd>
+          </dl>
 
 
 
 
-          </div>
+
 
           <!-- End of body content -->
         </div>
