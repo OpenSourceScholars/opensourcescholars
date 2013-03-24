@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext);
 
 body {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 a.headerlink:hover {
@@ -13,6 +13,12 @@ a.headerlink:hover {
 h1 {
     margin-top: 25px;
 }
+
+.headspace {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
 
 /* .navbar-inner { */
 /*   background-color: #fafafa; */
