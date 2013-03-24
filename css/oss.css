@@ -43,3 +43,9 @@ h1 {
 .footer-links li:first-child {
   padding-left: 0;
 }
+
+
+div.addthis_toolbox {
+  width: 320px;
+  margin: 0 auto;
+}
