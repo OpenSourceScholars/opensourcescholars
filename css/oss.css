@@ -51,7 +51,7 @@ div.addthis_toolbox {
 }
 
 .socialmedia {
-  margin: auto;
+  text-align: center;
 }
 
 .portrait-left {
@@ -60,4 +60,11 @@ div.addthis_toolbox {
 
 .portrait-right {
   margin-left: 10px;
+}
+
+/* stupid hack to get the title on the board page to align left
+properly */
+
+#pagetitle {
+  margin-left: -30px;
 }
