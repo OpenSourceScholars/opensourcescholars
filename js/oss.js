@@ -64,4 +64,13 @@ $(document).ready(function(){
             $('#boardmembers').shuffle();
         }
     });
+
+    // Load fancy image preview thingy
+    var photo_settings = {
+	social_tools: false,
+	theme: 'light_rounded',
+    };
+
+    $("a[rel^='prettyPhoto']").prettyPhoto(photo_settings);
+
 });
